@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Codura · 让每一行代码更聪明</title>
+
+    <!-- 网站图标 favicon -->
+    <link rel="icon" href="assets/favicon.ico" type="image/png" />
+
+    <!-- SEO优化 -->
+    <meta name="keywords" content="Codura, AI 编程助手, 智能代码补全, 编程工具, 开发者平台, OpenNLG" />
+    <meta name="description" content="Codura 是由 OpenNLG 实验室打造的智能代码辅助平台，支持代码生成、注释、翻译、问答等多种功能，助力开发者高效编码。" />
+
+    <!-- 社交分享卡片优化 -->
+    <meta property="og:title" content="Codura 编程助手" />
+    <meta property="og:description" content="AI 编程助手平台，由 OpenNLG 实验室打造，提升你的开发效率。" />
+    <meta property="og:image" content="https://yourdomain.com/assets/codura-logo.png" />
+    <meta property="og:type" content="website" />
+
+    <!-- 样式 -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- 图标库 Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <header class="codura-header">
+        <div class="logo-bar">
+            <img src="assets/codura-logo.png" alt="Codura Logo" class="logo codura" />
+            <img src="assets/opennlg-logo.png" alt="OpenNLG Logo" class="logo opennlg" />
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">首页</a></li>
+                <li><a href="./introduction.html">功能介绍</a></li>
+                <li><a href="https://huggingface.co/OpenNLG">模型能力</a></li>
+                <li><a href="./tutorial.html">使用指南</a></li>
+                <li><a href="https://opennlg.cn">实验室介绍</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Codura 智能编程助手</h1>
+            <p class="subtext">由 OpenNLG 实验室研发，集代码生成、注释、解释、问答于一体的 AI 编程助手。</p>
+            <!-- 按钮部分更新 -->
+            <div class="buttons">
+                <a href="https://www.codura.cn/plugins/Codura-1.0.0.zip" target="_blank" class="btn download-btn">
+                    <i class="fa-solid fa-download"></i> 下载插件
+                </a>
+                <a href="https://github.com/xunmenglt/codura" target="_blank" class="btn github">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </section>
+
+        <section class="code-demo">
+            <div class="demo-container">
+                <div class="demo-tabs">
+                    <div class="tab active" data-index="0">代码生成与补全</div>
+                    <div class="tab" data-index="1">注释生成</div>
+                    <div class="tab" data-index="2">代码翻译</div>
+                    <div class="tab" data-index="3">智能问答</div>
+                </div>
+                <div class="demo-video">
+                    <video class="demo-player" controls poster="assets/demo-cover.png">
+                        <source src="assets/videos/demo-generate.mp4" type="video/mp4">
+                        您的浏览器不支持 video 标签。
+                      </video>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Codura by OpenNLG Lab. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

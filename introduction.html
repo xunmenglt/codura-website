@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>Codura 简介</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 40px;
+      color: #34495e;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      text-indent: 2em;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 26px;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    ul li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+      color: #67c23a;
+    }
+
+    ul li:nth-child(2)::before { content: "🧠"; }
+    ul li:nth-child(3)::before { content: "📚"; }
+    ul li:nth-child(4)::before { content: "🔌"; }
+    ul li:nth-child(5)::before { content: "🔒"; }
+
+    blockquote {
+      background: #eef9ff;
+      border-left: 5px solid #00b4ff;
+      margin: 20px 0;
+      padding: 15px 20px;
+      font-style: italic;
+      color: #333;
+    }
+
+    .star-history {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .star-history img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Codura：你的智能代码辅助引擎</h1>
+    <p><strong>Codura</strong> 是一款专为开发者打造的智能代码辅助平台，融合 AI 编程助手、上下文感知提示系统与可拓展工具链，致力于让编码更高效、更智能、更流畅。</p>
+    <blockquote>名称灵感来源于 “Code + Aura”，寓意为：围绕开发者的智能光环，守护你的每一行代码。</blockquote>
+
+    <h2>🌟 核心特性</h2>
+    <ul>
+      <li><strong>智能补全与自动生成</strong>：支持多语言代码补全、函数自动生成、注释生成，理解上下文结构，提升开发效率。</li>
+      <li><strong>语义级错误诊断与修复建议</strong>：基于 LLM 和静态分析的混合引擎，精准识别潜在问题并推荐修复方案。</li>
+      <li><strong>上下文示例检索（Few-shot 提示）</strong>：按需检索与你代码相似的样例，提升 AI 输出质量，实现类“上下文记忆”体验。</li>
+      <li><strong>插件化架构，易于扩展</strong>：提供插件开发 API，可集成内网 LLM、本地工具链或团队自定义规则。</li>
+      <li><strong>安全本地部署 & 多模型兼容</strong>：支持云端和本地私有化部署，兼容 OpenAI / OpenBA / Qwen / 自研模型。</li>
+    </ul>
+
+    <h2>👨‍💻 应用场景</h2>
+    <ul>
+      <li>企业内训系统的代码导师</li>
+      <li>个人项目的 AI pairing partner</li>
+      <li>IDE 插件形式的生产力提升工具</li>
+      <li>教育平台的编程练习助手</li>
+      <li>编码规范、DevOps流程的智能协管</li>
+    </ul>
+
+    <h2>📈 我们相信</h2>
+    <p>编程不应只是人类对机器的单向命令，而是人机协作的创作过程。</p>
+    <p><strong>Codura</strong>，让代码会思考、助你专注创造。</p>
+
+    <div class="star-history">
+      <img src="https://api.star-history.com/svg?repos=xunmenglt/codura&type=Date" alt="点赞历史图表">
+    </div>
+  </div>
+</body>
+</html>
